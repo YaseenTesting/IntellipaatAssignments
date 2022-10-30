@@ -1,4 +1,5 @@
 Assignment 1
+
  echo code > code.txt
  echo log > log.txt
  echo output > output.txt
@@ -9,8 +10,10 @@ Assignment 1
  git commit -m 'Assingment 1'
  git push
 
+____________________________________________________________________
 
 Assignment 2
+
 mkdir gitworkflow
 cd gitworkflow
 git clone git@github.com:YaseenTesting/IntellipaatAssignments.git
@@ -40,6 +43,7 @@ git add .
 git status
 git commit -m 'develop branch commit'
 
+_________________________________________________________
 
 Assignment 3
 
@@ -72,6 +76,7 @@ git checkout main
 git branch -D F2
 git push --delete origin F2
 
+_____________________________________________________________
 
 Assignment 4
 
@@ -105,3 +110,40 @@ git checkout main
 git merge private
 git checkout private
 git rebase main
+
+________________________________________________________________
+
+Assignement 5
+
+git checkout main
+git branch featureeA
+git branch featureB
+git branch developed
+git branch release
+git checkout featureeA
+touch featureA1.txt
+git commit -m "featureA1.txt"
+git branch
+git add.
+git status
+git commit -m "featureA1.txt"
+git checkout featureB
+touch featureB.txt
+git status
+git add .
+git commit -m "Feature B File"
+git checkout Develop
+git merge featureeA
+git merge featureB
+git checkout release
+git merge Develop
+git checkout main
+git merge release
+git checkout -b Hotfix
+touch hotfix.txt
+git add .
+git commit -m "Hotfix file"
+git checkout main
+git merge Hotfix
+
+
