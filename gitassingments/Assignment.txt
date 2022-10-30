@@ -8,3 +8,34 @@ Assignment 1
  git status
  git commit -m 'Assingment 1'
  git push
+
+
+Assignment 2
+mkdir gitworkflow
+cd gitworkflow
+git clone git@github.com:YaseenTesting/IntellipaatAssignments.git
+git branch
+git init
+git branch
+cd IntellipaatAssignments
+git init
+git branch
+echo feature1 > feature1.txt
+echo feature2 > feature2.txt
+git branch develop
+git branch feature1
+git branch feature2
+git checkout develop
+echo develop > develop.txt
+git status
+git stash --all
+git checkout feature1
+echo nex >new.txt
+git status
+git add .
+git commit -m "Feature 1 File"
+git checkout develop
+git stash pop
+git add .
+git status
+git commit -m 'develop branch commit'
