@@ -1,0 +1,10 @@
+Assignment 1
+ echo code > code.txt
+ echo log > log.txt
+ echo output > output.txt
+ git status
+ git branch
+ git add code.txt output.txt
+ git status
+ git commit -m 'Assingment 1'
+ git push
