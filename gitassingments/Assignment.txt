@@ -71,3 +71,37 @@ git push origin F2
 git checkout main
 git branch -D F2
 git push --delete origin F2
+
+
+Assignment 4
+
+touch master.txt
+git add .
+git commit -m "Master commit"
+git branch public1
+git branch public2
+git branch private
+git checkout public1
+touch public.txt
+git add public.txt
+git commit -m "Public 1 File"
+git checkout public2
+touch public2.txt
+git add public2.txt
+git status
+git commit -m "Public 2 file"
+git checkout main
+git merge public1
+git merge public2
+git checkout private
+vi master.txt
+git add master.txt
+git commit -m "Changed Master.txt file in private branch"
+git checkout public1
+git rebase private
+git checkout public2
+git rebase private
+git checkout main
+git merge private
+git checkout private
+git rebase main
