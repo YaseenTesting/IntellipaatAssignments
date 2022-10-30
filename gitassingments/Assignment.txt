@@ -39,3 +39,35 @@ git stash pop
 git add .
 git status
 git commit -m 'develop branch commit'
+
+
+Assignment 3
+
+git checkout -b Develop
+git branch
+git checkout main
+git branch F1
+git branch F2
+touch main.txt
+vi main.txt
+git checkout Develop
+touch develop.txt
+git checkout F1
+touch F1.txt
+git checkout F2
+touch F2.txt
+git checkout Develop
+git add Develop.txt
+git commit -m "Develop branch file"
+git push origin Develop
+git checkout F1
+git add F1.txt
+git commit -m "F1 branch file"
+git push origin F1
+git checkout F2
+git add F2.txt
+git commit -m "F2 branch file"
+git push origin F2
+git checkout main
+git branch -D F2
+git push --delete origin F2
