@@ -150,6 +150,12 @@ ________________________________________________________________________________
 
 Case Study GitWorkFlow  Link - https://github.com/YaseenTesting/gitworkflow
 
+____________________________________________________________________________________
+
+Case Study Merge Conflict Link - https://github.com/devops-intellipaat/merge-conflict/pull/160
+
+____________________________________________________________________________
+
 
 
 
